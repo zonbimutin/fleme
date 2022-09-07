@@ -3,6 +3,7 @@
     "name": "fleme",
     "slug": "fleme",
     "version": "1.0.0",
+    "owner": "alarconfr",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alarconfr.fleme"
     },
     "android": {
       "adaptiveIcon": {
